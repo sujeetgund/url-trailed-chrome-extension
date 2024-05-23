@@ -1,0 +1,46 @@
+{
+  "name": "url-trailed-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sujeetgund/url-trailed-chrome-extension"
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "Sujeet Gund",
+    "email": "sujeetgund@gmail.com"
+  },
+  "contributors": [],
+  "scripts": {
+    "build": "webpack --config webpack.config.cjs"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@types/chrome": "^0.0.268",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "babel-loader": "^9.1.3",
+    "copy-webpack-plugin": "^12.0.2",
+    "html-webpack-plugin": "^5.6.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
